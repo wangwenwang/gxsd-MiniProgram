@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/nianji",
+    "pages/index/sudu",
+    "pages/test/outcome",
+    "pages/test/test",
+    "pages/test/read",
+    "pages/test/testes",
+    "pages/test/huixiang",
+    "pages/renwu/renwu",
+    "pages/renwu/start",
+    "pages/renwu/Recite",
+    "pages/renwu/result",
+    "pages/renwu/chakan",
+    "pages/my/my",
+    "pages/my/ziliao",
+    "pages/login/login",
+    "pages/login/register"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "onReachBottomDistance": 10
+  },
+  "tabBar": {
+    "color": "#CCCCCC",
+    "selectedColor": "#217CF2",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/index.png",
+        "selectedIconPath": "static/indexxuan.png",
+        "text": "课内速读"
+      },
+      {
+        "pagePath": "pages/renwu/renwu",
+        "iconPath": "static/renwu.png",
+        "selectedIconPath": "static/renwuxuan.png",
+        "text": "任务"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/my.png",
+        "selectedIconPath": "static/myxuan.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

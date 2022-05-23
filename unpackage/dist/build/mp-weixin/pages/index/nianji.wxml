@@ -1,0 +1,1 @@
+<view class="content"><view class="title">你好！请选择你的年级吧！</view><view class="cont"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['xuanze',[index,'$0'],[[['list','',index]]]]]]]}}" class="{{[index==indexs?'xuan':'weixuan']}}" bindtap="__e">{{item.gradeSxcName}}</view></block></view></view>

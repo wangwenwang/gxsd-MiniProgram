@@ -1,0 +1,197 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* uni.scss */
+.content .headbg {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 220px;
+  z-index: -100;
+}
+.content .nianji {
+  height: 40px;
+  border-bottom: 1px solid #F2F2F2;
+  box-sizing: border-box;
+  display: flex;
+}
+.content .nianji image {
+  margin-top: 10px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.content .nianji .title {
+  height: 40px;
+  font-size: 14px;
+  font-family: PingFang SC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 40px;
+  margin-right: 10px;
+}
+.content .head {
+  width: 94vw;
+  background: #FFFFFF;
+  border-radius: 8px 8px 8px 8px;
+  margin: 0 auto;
+  z-index: 1000;
+  padding: 16px 20px;
+  box-sizing: border-box;
+}
+.content .head .nianji {
+  height: 40px;
+  border-bottom: 1px solid #F2F2F2;
+  box-sizing: border-box;
+  display: flex;
+}
+.content .head .nianji image {
+  margin-top: 10px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.content .head .nianji .title {
+  height: 40px;
+  font-size: 14px;
+  font-family: PingFang SC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 40px;
+  margin-right: 10px;
+}
+.content .head .indexStatus {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #F2F2F2;
+  box-sizing: border-box;
+}
+.content .head .indexStatus .kite-classify-scrolls {
+  width: 100%;
+  height: 60px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.content .head .indexStatus .kite-classify-scrolls .kite-classify-cell {
+  display: inline-block;
+  height: 60px;
+  font-size: 14px;
+  font-family: PingFang SC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #999999;
+  line-height: 60px;
+  margin-right: 32px;
+}
+.content .head .indexStatus .kite-classify-scrolls .kcc2 {
+  height: 60px;
+  font-size: 16px;
+  font-family: PingFang SC-Bold, PingFang SC;
+  font-weight: bold;
+  color: #4BB4EF;
+  line-height: 30px;
+  margin-right: 32px;
+}
+.content .head .mode {
+  padding-top: 20px;
+  box-sizing: border-box;
+  display: flex;
+  height: 40px;
+}
+.content .head .mode .xun {
+  display: flex;
+}
+.content .head .mode .xun image {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.content .head .mode .xun .name {
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFang SC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 20px;
+}
+.content .conts {
+  padding: 0px 15px;
+  box-sizing: border-box;
+}
+.content .conts .cont {
+  padding: 0px 20px;
+  box-sizing: border-box;
+  background: #FAFAFA;
+  border-radius: 0px 0px 0px 0px;
+}
+.content .conts .cont .info {
+  display: flex;
+  justify-content: space-between;
+}
+.content .conts .cont .info .box {
+  width: 62%;
+  padding: 24px 0px;
+  box-sizing: border-box;
+}
+.content .conts .cont .info .box .title {
+  font-size: 16px;
+  font-family: PingFang SC-Heavy, PingFang SC;
+  font-weight: 800;
+  color: #333333;
+  line-height: 19px;
+  margin-bottom: 4px;
+}
+.content .conts .cont .info .box .infos {
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFang SC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #999999;
+  line-height: 16px;
+}
+.content .conts .cont .info .fen {
+  height: 94px;
+  font-size: 14px;
+  font-family: Alfa Slab One-Regular, Alfa Slab One;
+  font-weight: 400;
+  color: #D11111;
+  line-height: 94px;
+}
+.content .conts .cont .info .btn {
+  width: 60px;
+  height: 28px;
+  background: #4BB4EF;
+  border-radius: 14px 14px 14px 14px;
+  font-size: 12px;
+  font-family: PingFang SC-Bold, PingFang SC;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 30px;
+}
+

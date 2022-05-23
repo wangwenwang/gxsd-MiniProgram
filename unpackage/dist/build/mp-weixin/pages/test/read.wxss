@@ -1,0 +1,1 @@
+.content .imgs{position:fixed;top:-100vh;width:100vw;height:100vh;background:linear-gradient(180deg,#ffe3e3,#fff);border-radius:8px 8px 0 0;text-align:center}.content .imgs image{width:220px;height:250px;margin-top:75%}.cont{text-align:center;margin:0 auto}

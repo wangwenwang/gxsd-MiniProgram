@@ -1,0 +1,1 @@
+<view class="count_down data-v-04e1a972" style="color:#4BB4EF;"><text class="data-v-04e1a972">{{minutes1}}</text><text class="data-v-04e1a972">{{minutes}}</text><text class="data-v-04e1a972">:</text><text class="data-v-04e1a972">{{second1}}</text><text class="data-v-04e1a972">{{second}}</text></view>

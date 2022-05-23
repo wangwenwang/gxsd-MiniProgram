@@ -1,0 +1,203 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* uni.scss */
+page {
+  background: #f7f0f0;
+}
+.content .headbg {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 190px;
+  z-index: -100;
+}
+.content .box {
+  width: 100%;
+  background-color: #f7f0f0;
+  border-radius: 8px;
+}
+.content .box .head {
+  width: 95vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  box-sizing: border-box;
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px 1px rgba(204, 204, 204, 0.25);
+  border-radius: 8px 8px 8px 8px;
+}
+.content .box .head .headbox .num {
+  height: 25px;
+  font-size: 18px;
+  font-family: PingFang SC-Bold, PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  line-height: 25px;
+  margin-bottom: 8px;
+}
+.content .box .head .headbox .title {
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFang SC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #999999;
+  line-height: 20px;
+}
+.content .box .cont {
+  padding: 0px 15px;
+  box-sizing: border-box;
+}
+.content .box .cont .tit {
+  height: 25px;
+  font-size: 18px;
+  font-family: PingFang SC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #999999;
+  line-height: 25px;
+  margin-bottom: 12px;
+}
+.content .box .cont .boxs {
+  padding: 0px 10px 16px 10px;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px 1px rgba(204, 204, 204, 0.5);
+  border-radius: 8px 8px 8px 8px;
+  margin-bottom: 20px;
+}
+.content .box .cont .boxs .dabiao {
+  display: flex;
+  justify-content: space-between;
+}
+.content .box .cont .boxs .dabiao .weida {
+  width: 60px;
+  height: 25px;
+  background: #D11111;
+  border-radius: 0px 8px 0px 90px;
+  line-height: 25px;
+  font-size: 12px;
+  font-family: PingFang SC-Bold, PingFang SC;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+}
+.content .box .cont .boxs .dabiao .da {
+  width: 60px;
+  height: 25px;
+  background: #0CBC48;
+  border-radius: 0px 8px 0px 90px;
+  line-height: 25px;
+  font-size: 12px;
+  font-family: PingFang SC-Bold, PingFang SC;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+}
+.content .box .cont .boxs .dabiao .guo {
+  width: 60px;
+  height: 25px;
+  background: #E6E6E6;
+  border-radius: 0px 8px 0px 90px;
+  line-height: 25px;
+  font-size: 12px;
+  font-family: PingFang SC-Bold, PingFang SC;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+}
+.content .box .cont .boxs .biao {
+  margin-bottom: 10px;
+  display: flex;
+}
+.content .box .cont .boxs .biao .titles {
+  height: 22px;
+  font-size: 16px;
+  font-family: PingFang SC-Bold, PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  line-height: 22px;
+}
+.content .box .cont .boxs .biao .Times {
+  background: rgba(75, 180, 239, 0.2);
+  border-radius: 0px 0px 0px 0px;
+  padding: 0px 8px;
+  box-sizing: border-box;
+  height: 14px;
+  font-size: 10px;
+  font-family: PingFang SC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #4BB4EF;
+  line-height: 14px;
+  margin-top: 5px;
+}
+.content .box .cont .boxs .fenshu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -4px;
+}
+.content .box .cont .boxs .fenshu .fenshuxian {
+  height: 25px;
+  font-size: 12px;
+  font-family: PingFang SC-Bold, PingFang SC;
+  font-weight: bold;
+  color: #999999;
+  line-height: 25px;
+}
+.content .box .cont .boxs .fenshu .defen {
+  height: 25px;
+  font-size: 18px;
+  font-family: Alfa Slab One-Regular, Alfa Slab One;
+  font-weight: 400;
+  color: #D11111;
+  line-height: 25px;
+  margin-top: -10px;
+}
+.content .box .cont .boxs .btns {
+  display: flex;
+  justify-content: space-between;
+}
+.content .box .cont .boxs .btns .times {
+  height: 28px;
+  font-size: 12px;
+  font-family: PingFang SC-Bold, PingFang SC;
+  font-weight: bold;
+  color: #999999;
+  line-height: 28px;
+}
+.content .box .cont .boxs .btns .btn {
+  width: 80px;
+  height: 28px;
+  background: #4BB4EF;
+  border-radius: 90px 90px 90px 90px;
+  font-size: 12px;
+  font-family: PingFang SC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 28px;
+  text-align: center;
+}
+

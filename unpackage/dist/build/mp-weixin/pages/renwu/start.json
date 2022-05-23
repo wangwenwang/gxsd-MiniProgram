@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "大小多少",
+  "usingComponents": {
+    "wzs-audio": "/components/WZS-Audio/WZS-Audio"
+  }
+}

@@ -1,0 +1,169 @@
+{
+	// 如果您是通过uni_modules形式引入uView，可以忽略此配置
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		// =====================首页==========================
+
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/index/nianji",
+			"style": {
+				"navigationBarTitleText": "选择年级"
+			}
+		},
+		{
+			"path": "pages/index/sudu",
+			"style": {
+				"navigationBarTitleText": "速度选择"
+			}
+		},
+		{
+			"path": "pages/test/outcome",
+			"style": {
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
+		},
+		
+		// =====================做题==========================
+		
+		{
+			"path": "pages/test/test",
+			"style": {
+				"navigationBarTitleText": "丁香结"
+			}
+		},
+		{
+			"path": "pages/test/read",
+			"style": {
+				"navigationBarTitleText": "丁香结"
+			}
+		},
+		{
+			"path": "pages/test/testes",
+			"style": {
+				"navigationBarTitleText": "丁香结"
+			}
+		},
+		{
+			"path": "pages/test/huixiang",
+			"style": {
+				"navigationBarTitleText": "丁香结"
+			}
+		},
+
+		
+		
+		// =====================任务==========================
+		
+		{
+			"path": "pages/renwu/renwu",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle":"custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/renwu/start",
+			"style": {
+				"navigationBarTitleText": "大小多少"
+			}
+		},
+		{
+			"path": "pages/renwu/Recite",
+			"style": {
+				"navigationBarTitleText": "大小多少"
+			}
+		},
+		{
+			"path": "pages/renwu/result",
+			"style": {
+				"navigationBarTitleText": "大小多少"
+			}
+		},
+		{
+			"path": "pages/renwu/chakan",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle":"custom"
+			}
+		},
+		
+		
+		// =====================我的==========================
+		
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/my/ziliao",
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		},
+		
+		// =======================登录==========================
+		
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "微信登录绑定"
+				// "navigationStyle":"custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"onReachBottomDistance": 10  //距离底部150上滑有效
+	},
+	"tabBar": {
+		"color": "#CCCCCC",
+		"selectedColor": "#217CF2",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/index.png",
+				"selectedIconPath": "static/indexxuan.png",
+				"text": "课内速读"
+			},
+			{
+				"pagePath": "pages/renwu/renwu",
+				"iconPath": "static/renwu.png",
+				"selectedIconPath": "static/renwuxuan.png",
+				"text": "任务"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/my.png",
+				"selectedIconPath": "static/myxuan.png",
+				"text": "个人中心"
+			}
+		]
+	}
+}
